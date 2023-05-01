@@ -3,7 +3,8 @@ Random Scripts/Code and other stuff
 
 
 ## Surreal DB
-the 'init-ssdb' starts a SurrealDB instance with the default file-location '/Users/korb/Desktop/test.db' (can be altered with the first argument) and the **presets as following:**
+the 'init-ssdb' starts a SurrealDB instance with the default file-location '/Users/korb/Desktop/test.db' (can be altered with the first argument)
+**presets are as follows:**
 - user:       root
 - password:   root
 - bind-addr:  127.0.0.1:8000
