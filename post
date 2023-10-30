@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl -d "$1" http://ntfy.sh/kirbyhasfullpants
+curl -d "$1" http://ntfy.sh/#[your-group-name]
