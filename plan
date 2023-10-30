@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DATE=`date +"%Y.%m.%d"`
+LOC="/Users/korb/Desktop/plans"
+cp -n $LOC/!template.txt $LOC/$DATE.txt
+git add .
+nano $LOC/$DATE.txt
