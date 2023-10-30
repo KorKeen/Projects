@@ -2,6 +2,6 @@
 
 DATE=`date +"%Y.%m.%d"`
 PWD=`pwd`
-cp -n /Users/korb/Desktop/plans/!template.txt $PWD/$DATE.txt
+cp -n /Users/korb/Desktop/plans/!template.txt $PWD/$DATE.txt || touch $PWD/$DATE.txt
 git add .
 nano $PWD/$DATE.txt
